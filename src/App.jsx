@@ -7,11 +7,11 @@ function App() {
   
 
   return (
-    <>
+    <div className='bg-white'>
       <Header />
       <Home />
       <Footer />
-    </>
+    </div>
   )
 }
 
