@@ -11,7 +11,7 @@ const Home = () => {
             <img 
                 src={image} 
                 alt="kal's Icon"
-                className="w-40 rounded-full h-40 shadow-xl md:w-50 md:h-50 mb-20"
+                className="w-40 rounded-full h-40 shadow-xl md:w-60 md:h-60 mb-20"
             />
 
             <div className="flex flex-col text-left">
@@ -29,7 +29,7 @@ const Home = () => {
                 </h3>
                 <a
                     href="/about"
-                    className="mx-auto px-6 py-2 text-white bg-blue-600 rounded shadow-md hover:bg-blue-700"
+                    className="mr-auto px-6 py-2 text-white bg-blue-600 rounded shadow-md hover:bg-blue-700"
                 >
                     Learn More
                 </a>
