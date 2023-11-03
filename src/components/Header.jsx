@@ -4,17 +4,17 @@ import React from "react";
 const Header = () => {
 
 return (
-<div className="flex justify-between px-10 py-5 border-b border-gray-200">
-    <h2 className="text-3xl font-bold">Kal</h2>
+<div className="flex justify-between px-40 py-5 border-b border-gray-200">
+    <h2 className="text-3xl text-green-626 font-bold">Kal</h2>
 
     <nav className="flex">
-        <a href="/" className="px-4 text-blue-500 hover:text-blue-700">
+        <a href="/" className="px-4 text-slate-500 font-bold hover:text-green-626">
             Home
         </a>
-        <a href="/projects" className="px-4 text-blue-500 hover:text-blue-700">
+        <a href="/projects" className="px-4 text-slate-500 font-bold hover:text-green-626">
             Projects 
         </a> 
-        <a href="/about" className="px-4 text-blue-500 hover:text-blue-700">
+        <a href="/about" className="px-4 text-slate-500 font-bold hover:text-green-626">
             About
         </a>
   </nav>
