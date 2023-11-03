@@ -8,9 +8,9 @@ import twitterIcon from "../assets/twitter_3670151.png";
 const Footer = () => {
     return (
       <footer className="bg-gray-900 text-gray-200 py-10 mt-5">
-        <div className="max-w-screen-md mx-auto flex justify-between">
+        <div className="max-w-screen-md mx-auto flex flex-col items-center">
   
-          <div className="flex">
+          <div className="flex mb-10">
             <a href="#" className="hover:opacity-75">
               <img 
                 src={instagramIcon} 
