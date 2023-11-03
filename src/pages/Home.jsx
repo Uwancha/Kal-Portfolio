@@ -11,25 +11,26 @@ const Home = () => {
             <img 
                 src={image} 
                 alt="kal's Icon"
-                className="w-40 rounded-full h-40 shadow-xl md:w-60 md:h-60 mb-20"
+                className="w-40 rounded-full h-40 shadow-xl md:w-30 md:h-30 mb-10"
             />
 
-            <div className="flex flex-col text-left">
+            <div className="flex flex-col text-center">
 
-                <h4 className="text-xl font-bold mb-2">Hi there!</h4>
+                <h4 className="text-green-626 font-bold mb-2">Hi there! I'm </h4>
     
-                <h3 className="text-gray-600 font-bold mb-2">I'm Kalkidan</h3>
+                <h3 className="text-7xl text-slate-700 font-bold mb-7">Kalkidan Birhanu</h3>
 
-                <h3 className="text-gray-600 font-bold ">
+                <h3 className="text-slate-700 text-lg mb-10">
                     I'm a Video Editor.  
-                </h3>
-
-                <h3 className="w-30 text-gray-600 font-bold mb-5" >
                     I create video content for brands, podcasts and influencers
                 </h3>
                 <a
                     href="/about"
-                    className="mr-auto px-6 py-2 text-white bg-blue-600 rounded shadow-md hover:bg-blue-700"
+                    className="mx-auto px-12 py-3 text-white 
+                    text-xl bg-green-626 border border-green-626 rounded-full shadow-md 
+                    hover:bg-transparent hover:text-green-626 
+                    hover:border hover:border-green-626
+                    transition duration-500 ease-in-out"
                 >
                     Learn More
                 </a>
