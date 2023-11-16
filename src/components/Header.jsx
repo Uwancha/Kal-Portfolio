@@ -12,7 +12,7 @@ return (
             Home
         </a>
         <a href="/projects" className="px-4 text-slate-500 font-bold hover:text-green-626">
-            Projects 
+            Works 
         </a> 
         <a href="/about" className="px-4 text-slate-500 font-bold hover:text-green-626">
             About
