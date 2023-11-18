@@ -12,13 +12,11 @@ function App() {
   return (
     <div className='bg-white'>
       <Router>
-        <Header />
         <Routes>
           <Route path='/' Component={Home} />
           <Route path='/projects' Component={Works} />
           <Route path='*' Component={NotFound} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   )
