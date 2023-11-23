@@ -10,19 +10,18 @@ const Works = () => {
   const works = [work1, work2, work3]
 
   return (
-    <section className="w-11/12 mx-auto mt-10 sm:w-3/4 lg:w-11/12 xl:w-3/4 2xl:w-[64rem]">
-      <h1 className="capitalize text-4xl font-semibold mb-8 text-center">
+    <section className="w-full mx-auto mt-40 mb-20">
+      <h1 className="capitalize text-3xl font-semibold mb-8 text-center">
         my <span className="text-green-626">Works</span>
       </h1>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col gap-10 items-center">
         {works.map(work => (
-          <ReactPlayer
-          url={work}
-          loop
-          muted
-          controls
-          style={{marginBottom: "4rem"}}
-        />
+          <video src={work}
+            loop
+            muted
+            controls
+            className="video"
+        ></video>
         ))}
       </div>
     </section>
