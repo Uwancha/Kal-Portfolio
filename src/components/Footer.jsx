@@ -7,7 +7,7 @@ import twitterIcon from "../assets/twitter_3670151.png";
 
 const Footer = () => {
     return (
-      <footer className="bg-gray-900 text-gray-200 py-10 mt-5">
+      <footer className="bg-gray-900 text-gray-200 py-10 mt-5 relative">
         <div className="max-w-screen-md mx-auto flex flex-col items-center">
   
           <div className="flex mb-10">
