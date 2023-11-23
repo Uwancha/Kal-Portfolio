@@ -4,17 +4,15 @@ import React from "react";
 const Header = () => {
 
 return (
-<div className="flex justify-between px-40 py-5 border-b border-gray-200">
-    <h2 className="text-3xl text-green-626 font-bold">Kal</h2>
-
-    <nav className="flex">
-        <a href="/" className="px-4 text-slate-500 font-bold hover:text-green-626">
+<div className="header py-6">
+    <nav className="ml-auto pr-20 flex items-center">
+        <a href="/" className="pr-5 text-slate-500 font-bold hover:text-green-626">
             Home
         </a>
-        <a href="/projects" className="px-4 text-slate-500 font-bold hover:text-green-626">
+        <a href="/projects" className="pr-5 text-slate-500 font-bold hover:text-green-626">
             Works 
         </a> 
-        <a href="/about" className="px-4 text-slate-500 font-bold hover:text-green-626">
+        <a href="/about" className="text-slate-500 font-bold hover:text-green-626">
             About
         </a>
   </nav>
