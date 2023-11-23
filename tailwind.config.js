@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'green-626': '#72b626',
+        'slategray': "slategray"
       }
     },
   },
