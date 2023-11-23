@@ -6,7 +6,7 @@ const Home = () => {
 
     
     return (
-        <div className="w-full max-w-screen-md mx-auto flex flex-col items-center py-20">
+        <div className="w-full max-w-screen-md mx-auto mt-20 flex flex-col items-center py-20">
             
             <img 
                 src={image} 
@@ -21,7 +21,7 @@ const Home = () => {
                 <h3 className="text-7xl text-slate-700 font-bold mb-7">Kalkidan Birhanu</h3>
 
                 <h3 className="text-slate-700 text-lg mb-10">
-                    I'm a Video Editor.  
+                    I'm a Video Editor and Creator.  
                     I create video content for brands, podcasts and influencers
                 </h3>
                 <a
