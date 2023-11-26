@@ -8,5 +8,5 @@
 
  The tecnologies I used are:
     - React
-    - TypeScript
+    - JavaScript
     - Tailwind CSS
