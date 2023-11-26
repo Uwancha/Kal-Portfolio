@@ -1,8 +1,12 @@
-# React + Vite
+# A Video Creator's portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project
 
-Currently, two official plugins are available:
+ This is a work I did for my client. It's a portfolio site for a video creator and editor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech-Stack
+
+ The tecnologies I used are:
+    - React
+    - TypeScript
+    - Tailwind CSS
