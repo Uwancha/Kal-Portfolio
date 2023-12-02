@@ -19,3 +19,22 @@
     width: 60%;
     height: 400;
 }
+
+.about {
+    width: 60%;
+}
+
+.about p {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .video {
+        width: 90%;
+        height: 500;
+    }
+
+    .about {
+        width: 90%;
+    }
+}
