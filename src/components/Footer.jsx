@@ -1,8 +1,10 @@
 import React from "react";
 
+//Icons
+import fbIcon from "../assets/facebook_4494475.png";
 import linkedIcon from "../assets/linkedin_145807.png";
 import instagramIcon from "../assets/instagram.svg";
-import twitterIcon from "../assets/twitter_3670151.png";
+import telgramIcon from "../assets/telegram.png";
 
 
 const Footer = () => {
@@ -11,15 +13,23 @@ const Footer = () => {
         <div className="max-w-screen-md mx-auto flex flex-col items-center">
   
           <div className="flex mb-10">
-            <a href="#" className="hover:opacity-75">
+          <a href="https://www.facebook.com/kalkidanbirhanu982" className="hover:opacity-75">
+              <img 
+                src={fbIcon} 
+                alt="Link to fb"
+                className="w-8 mr-4 rounded-full transition duration-150 ease-in-out"
+              />
+            </a>
+
+            <a href="https://www.instagram.com/_kal982/" className="hover:opacity-75">
               <img 
                 src={instagramIcon} 
-                alt="Link to Github"
+                alt="Link to IG"
                 className="w-8 mr-4 rounded-full transition duration-150 ease-in-out"
               />
             </a>
   
-            <a href="#" className="hover:opacity-75">
+            <a href="https://www.linkedin.com/in/kalkidan-birhanu" className="hover:opacity-75">
               <img
                 src={linkedIcon}
                 alt="Link to LinkedIn"
@@ -27,17 +37,17 @@ const Footer = () => {
               />
             </a>
   
-            <a href="#" className="hover:opacity-75">
+            <a href="https://t.me/kal982" className="hover:opacity-75">
               <img
-                src={twitterIcon}
-                alt="Link to Twitter"
+                src={telgramIcon}
+                alt="Link to telegram"
                 className="w-8 transition duration-150 ease-in-out"
               />
             </a>
           </div>
   
           <p className="text-sm">
-            &copy; 2023 designed and coded by Sitota Alemu
+            &copy; 2023 designed and coded by <a href="https://www.linkedin.com/in/sitota" style={{color:'GrayText'}}>Sitota Alemu</a>
           </p>
   
         </div>
