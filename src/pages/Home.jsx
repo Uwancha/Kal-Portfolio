@@ -6,7 +6,7 @@ const Home = () => {
 
     
     return (
-        <div className="w-full max-w-screen-md mx-auto mt-20 flex flex-col items-center py-20">
+        <div className="w-full h-screen max-w-screen-md mx-auto mt-20 flex flex-col items-center py-20">
             
             <img 
                 src={image} 
